@@ -1,2 +1,2 @@
-# CODESOFT
-This is my CODESOFT First Repository
+# CODSOFT
+This is my CODSOFT First Repository
