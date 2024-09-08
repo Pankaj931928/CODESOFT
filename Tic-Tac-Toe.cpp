@@ -29,6 +29,7 @@ void PlayGame(char arr[3][3]){
     getline(cin,Player_name1);
     cout << "Player 2 : enter your name:";
     getline(cin,Player_name2);
+    cout << "if player Want to change our turn Enter 0 first" << endl;
     int turn=0;
     char player;
     int choice;
