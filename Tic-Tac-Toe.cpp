@@ -35,6 +35,7 @@ void PlayGame(char arr[3][3]){
     while(true){
         board(arr);
         // turn=0 mean enter the key by Player1 otherwise enter the key by Player2 .....
+        // if player 1 (in the case of starting match) want to change our turn than the sclect=0...
         if(turn%2==0){
              player='X';
                cout << "Player:" << Player_name1<<":"<< player << " Enter number(1-9)" << endl; 
