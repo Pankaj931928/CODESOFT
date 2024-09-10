@@ -91,7 +91,7 @@ void PlayGame(char arr[3][3]){
     
 }
 int main() {
-    cout << "\t\t Tic-Tac-Toe" << endl;
+   cout << "<----------Tic-Tac-Toe---------->" << endl;
     char arr[3][3]={'1','2','3','4','5','6','7','8','9'};
    PlayGame(arr);
    while(true){
@@ -109,6 +109,7 @@ int main() {
                 PlayGame(arr);
             }
             else{
+                cout << "Thank You!" << endl;
                 break;
             }
   }
